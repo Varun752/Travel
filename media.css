@@ -122,6 +122,40 @@
     }
 }
 
+
+
+
+@media only screen and (max-width: 600px) {
+  header .trip_box .search_box .card{
+        width: 200px;
+    }
+    header .trip_box .search_box input [type="button"]{
+        position: absolute;
+        right: 10px;
+        bottom: -43px;
+        font-size: 13px;
+    }
+    .offers{
+        width: 85%;
+        margin-top: 80px;
+    }
+    .destination{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .destination .des_box, .img_box{
+        position: relative;
+        width: 55%;
+        height: auto;
+    }
+    .destination .des_box{
+        margin-top: 30px;
+    }
+}
+
+
+
+
 @media  screen and (max-width:541px){
     header .content .cont_box{
         width: 85%;
