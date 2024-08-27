@@ -169,12 +169,12 @@
     }
     
     header .trip_box .search_box .card{
-        width: 110px;}
+        width: 60px;}
     
     header .trip_box .search_box .card h4{
             width: 70px;
-            
-        }    
+            text-align: center;
+            }    
             
     header .trip_box .search_box .card input{
             width: 80%;
